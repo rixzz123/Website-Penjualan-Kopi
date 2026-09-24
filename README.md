@@ -48,26 +48,6 @@ kopinusantara/
 └── readme.txt            (Dokumentasi ini)
 
 -----------------------------------------
-  KONFIGURASI DATABASE
------------------------------------------
-1. Buka XAMPP, aktifkan Apache dan MySQL
-2. Buka phpMyAdmin (http://localhost/phpmyadmin)
-3. Buat database: db_kopi_nusantara
-4. Import file: db_backup_kopinusantara.sql
-5. Edit file includes/koneksi.php:
-   - DB_HOST: localhost
-   - DB_USER: root
-   - DB_PASS: (kosong untuk XAMPP default)
-   - DB_NAME: db_kopi_nusantara
-
------------------------------------------
-  KONFIGURASI PROYEK
------------------------------------------
-1. Letakkan folder kopinusantara/ di:
-   C:\xampp\htdocs\kopinusantara\
-2. Akses di browser: http://localhost/kopinusantara/
-
------------------------------------------
   FITUR APLIKASI
 -----------------------------------------
 HALAMAN PUBLIK:
